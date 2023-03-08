@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-07T16:18:41 IST" name="Default suite" finished-at="2023-03-07T16:18:55 IST" duration-ms="13343">
+    <groups>
+      <group name="sanity">
+        <method signature="AdminCreatePackage_UpdateSamePackageTest.adminCreatePackage_UpdateSamePackageTest()[pri:0, instance:tms.mb.admin.AdminCreatePackage_UpdateSamePackageTest@c88a337]" name="adminCreatePackage_UpdateSamePackageTest" class="tms.mb.admin.AdminCreatePackage_UpdateSamePackageTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2023-03-07T16:18:41 IST" name="Default test" finished-at="2023-03-07T16:18:55 IST" duration-ms="13343">
+      <class name="tms.mb.admin.AdminCreatePackage_UpdateSamePackageTest">
+        <test-method is-config="true" signature="btConfig(java.lang.String)[pri:0, instance:tms.mb.admin.AdminCreatePackage_UpdateSamePackageTest@c88a337]" started-at="2023-03-07T16:18:41 IST" name="btConfig" finished-at="2023-03-07T16:18:49 IST" duration-ms="7889" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- btConfig -->
+        <test-method signature="adminCreatePackage_UpdateSamePackageTest()[pri:0, instance:tms.mb.admin.AdminCreatePackage_UpdateSamePackageTest@c88a337]" started-at="2023-03-07T16:18:49 IST" name="adminCreatePackage_UpdateSamePackageTest" finished-at="2023-03-07T16:18:54 IST" duration-ms="5139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminCreatePackage_UpdateSamePackageTest -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:tms.mb.admin.AdminCreatePackage_UpdateSamePackageTest@c88a337]" started-at="2023-03-07T16:18:54 IST" name="acConfig" finished-at="2023-03-07T16:18:55 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+      </class> <!-- tms.mb.admin.AdminCreatePackage_UpdateSamePackageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

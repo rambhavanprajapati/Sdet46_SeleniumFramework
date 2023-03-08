@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel = "classes">
+  <test thread-count="2" name="Test">
+    <classes>
+      <class name="tms.mb.user.ConfirmPackageAfterBookingTest"/>
+      <class name="tms.mb.admin.CreatePackageTest"/>
+      <class name="tms.mb.admin.AdminCreatePackage_UpdateSamePackageTest"/>
+      <class name="tms.mb.user.CancelPackageAfterBookingTest"/>
+      <class name="tms.mb.admin.ManagePackageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
