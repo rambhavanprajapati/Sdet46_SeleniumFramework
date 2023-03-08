@@ -26,9 +26,6 @@ public class Demo {
 		cal.setTime(sdf.parse(date));
 		cal.add(Calendar.DAY_OF_MONTH, days);
 		return sdf.format(cal.getTime());
-	     //cal.setTime(sdf.parse(date));
-		//System.out.println(date);
-	   //return date;
 	}
 	public static void main(String[] args) throws ParseException {
 
