@@ -28,7 +28,7 @@ public class BaseClassPractice {
 	@BeforeTest
 	public void btConfig()
 	{
-		System.out.println("BeforeTest");
+		System.out.println("BeforeTestt");
 		
 	}
 	
