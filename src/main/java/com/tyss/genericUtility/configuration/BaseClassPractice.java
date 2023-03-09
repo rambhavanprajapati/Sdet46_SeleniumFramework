@@ -21,6 +21,7 @@ public class BaseClassPractice {
 	@BeforeSuite
 	public void bsConfig()
 	{
+		System.out.println("FirstCommit");
 		System.out.println("BeforeSuite");
 	}
 	
