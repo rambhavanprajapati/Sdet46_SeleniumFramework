@@ -14,7 +14,7 @@ import com.tyss.genericUtility.WebActions.WebDriverUtility;
 import com.tyss.genericUtility.misc.JavaUtility;
 
 public class BaseClassPractice {
-	// this base class
+
 	public WebDriverUtility wUtil;
 	public JavaUtility jUtil;
 	public WebDriver driver;
