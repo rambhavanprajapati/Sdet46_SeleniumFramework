@@ -11,5 +11,6 @@ public @interface Report {
 
 	public String author();
 	public String[] category() default "regression";
+
 	
 }

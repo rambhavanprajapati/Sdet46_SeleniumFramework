@@ -14,20 +14,22 @@ import com.tyss.genericUtility.WebActions.WebDriverUtility;
 import com.tyss.genericUtility.misc.JavaUtility;
 
 public class BaseClassPractice {
-	// This is my base class
+
 	public WebDriverUtility wUtil;
 	public JavaUtility jUtil;
 	public WebDriver driver;
 	@BeforeSuite
 	public void bsConfig()
 	{
+		// hii my name is you know
+		System.out.println("FirstCommit");
 		System.out.println("BeforeSuite");
 	}
 	
 	@BeforeTest
 	public void btConfig()
 	{
-		System.out.println("BeforeTest");
+		System.out.println("BeforeTestt");
 		
 	}
 	
